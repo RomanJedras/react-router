@@ -1,0 +1,27 @@
+{
+  "name": "react-router",
+  "version": "1.0.0",
+  "description": "\"#react-router navigation\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-project": "npm install && npm-run-all init:*",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "start": "babel actions.js --watch --out-file ./js/script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanJedras/react-router"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanJedras/react-router/issues"
+  },
+  "homepage": "https://github.com/RomanJedras/react-router#readme",
+  "dependencies": {
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2"
+  }
+}
