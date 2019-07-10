@@ -1,6 +1,9 @@
 import { GET_COUNTRIES } from '../actions/actions-countries';
 import countriesData from '../data/countries';
 
+
+// eslint-disable-next-line
+
 const initialState = {
 	countries: countriesData
 	
