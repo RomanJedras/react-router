@@ -6,7 +6,7 @@ import store from './store';
 import routes from './routes';
 import * as serviceWorker from './serviceWorker';
 import {getCountries} from "./actions/actions";
-import DevTools from './store/DevTools';
+//import DevTools from './store/DevTools';
 
 import './country.css'
 
@@ -14,7 +14,6 @@ import './country.css'
 ReactDOM.render(<Provider store={store}>
 	<div>
 		<Router history={hashHistory} routes={routes}/>
-		<DevTools />
 	</div>
 </Provider>, document.getElementById('root'));
 
